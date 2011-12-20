@@ -19,7 +19,7 @@
 			<li id="catagories" class="widget-container">
 				<h3 class="widget-title">Categories</h3>
 				<ul>
-					<?php wp_list_categories('title_li=""'); ?>
+					<?php wp_list_categories('title_li='); ?>
 				</ul>
 			</li>
 
