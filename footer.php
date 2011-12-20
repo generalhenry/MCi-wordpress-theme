@@ -1,5 +1,9 @@
     <footer>
         <?php wp_footer(); ?>
+        <div class="footer-colophon">
+            <?php bloginfo('name'); ?> | 
+    		<a href="http://www.wordpress.org" target="_blank">Powered by Wordpress</a>
+    	</div>
     </footer>
   </div> <!--! end of #container -->
 
