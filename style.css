@@ -215,6 +215,12 @@ body {
 #container {
   width: 1000px;
   margin: 0 auto;
+  margin-top: 335px;
+  padding: 10px;
+  background-color: #FAFAFA;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 #main {
