@@ -209,7 +209,7 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
 
 body {
-  #7098EF url(http://3.bp.blogspot.com/_zZYVNfAEy2k/TSJqjmmwACI/AAAAAAAAABM/Mgwq2aeEj2w/s0-R/blogbackground.png) no-repeat scroll top center;   
+  background: #7098EF url(http://3.bp.blogspot.com/_zZYVNfAEy2k/TSJqjmmwACI/AAAAAAAAABM/Mgwq2aeEj2w/s0-R/blogbackground.png) no-repeat scroll top center;   
 }
 
 #container {
