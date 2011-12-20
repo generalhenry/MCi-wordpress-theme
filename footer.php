@@ -1,5 +1,4 @@
     <footer>
-        <?php wp_footer(); ?>
         <div class="footer-colophon">
             <?php bloginfo('name'); ?> | 
             <a href="http://www.wordpress.org" target="_blank">Powered by Wordpress</a>
@@ -23,5 +22,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
   <![endif]-->
+  <?php wp_footer(); ?>
 </body>
 </html>
