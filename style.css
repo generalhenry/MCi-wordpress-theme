@@ -239,6 +239,19 @@ footer {
    clear: both;
 }
 
+a {
+  text-decoration: none;
+  color: #537BE3;
+}
+
+a:hover {
+  color: #2230D3;
+}
+
+a:visited {
+  color: #6d578f;  
+}
+
 .post-sidebar {
   display: inline-block;
   vertical-align: top;
