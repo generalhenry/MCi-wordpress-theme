@@ -254,6 +254,14 @@ a:visited {
   color: #6d578f;  
 }
 
+h3, .post-author {
+  color: #2230D3;
+}
+
+strong {
+  color: #E3004F;
+}
+
 .post-sidebar {
   display: inline-block;
   vertical-align: top;
