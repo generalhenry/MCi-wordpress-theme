@@ -15,11 +15,15 @@
 			<div class="edit-link">edit</div>
 		</div>
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<h2><?php the_title(); ?></h2>
+			<h2 class="page_title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+			<small><span class="post-author">by <?php the_author() ?></span></small>
 
 			<div class="entry">
 				<?php the_content(); ?>
 			</div>
+      
+      <p class="postmetadata clear post-categories"><?php the_category(' ') ?></p>
+  		<hr>
 		</div>
 
 	<?php endwhile; ?>
