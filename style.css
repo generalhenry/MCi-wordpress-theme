@@ -208,12 +208,13 @@ table { border-collapse: collapse; border-spacing: 0; }
    Author: 
    ========================================================================== */
    
-#main, footer {
+#container {
   width: 1000px;
   margin: 0 auto;
 }
 
 #main {
+  width: 800px;
   float: left;
   clear: left;
 }
