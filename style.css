@@ -242,11 +242,12 @@ footer {
 .post-sidebar {
   display: inline-block;
   vertical-align: top;
+  padding: 50px;
 }
 
 .post {
   display: inline-block;
-  width: 650px;
+  width: 500px;
   vertical-align: bottom;
   margin-left: 25px;
 }
