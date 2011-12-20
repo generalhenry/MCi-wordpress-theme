@@ -265,7 +265,10 @@ strong {
 .post-sidebar {
   display: inline-block;
   vertical-align: top;
-  padding: 50px;
+  padding: 55px;
+  background-image: url(http://mathcoachinteractive.com/Interactive3/media/Art/cloudbig125.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .post {
