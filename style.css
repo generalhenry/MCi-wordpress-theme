@@ -270,6 +270,8 @@ strong {
   background-repeat: no-repeat;
   background-position: center;
   font-size: 1.5em;
+  width: 75px;
+  text-align: center;
 }
 
 .post {
