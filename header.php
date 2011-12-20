@@ -33,8 +33,6 @@
 </head>
 
 <body>
-  <header>
-    <img alt='MathCoach Interactive Blog' src='<?php echo get_template_directory_uri(); ?>/blogheader.png'>
-  </header>
+  
   <div id="container">
-   
+    <header></header> 
