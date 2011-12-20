@@ -209,8 +209,17 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
    
 #main, footer {
-   width: 1000px;
-   margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#main {
+  float: left;
+  clear: left;
+}
+
+#primary {
+  float: right;  
 }
 
 footer {
