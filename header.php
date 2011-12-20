@@ -36,5 +36,5 @@
 
   <div id="container">
     <header>
-      <img alt='MathCoach Interactive Blog' src='blogbackground.png'>
+      <img alt='MathCoach Interactive Blog' src='<?php echo get_template_directory_uri(); ?>blogbackground.png'>
     </header>
