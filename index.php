@@ -27,6 +27,11 @@
 		</div>
 
 	<?php endwhile; ?>
+	
+	<div class="navigation">
+		<div class="alignleft"><?php next_posts_link('&laquo;' . __( 'Older Entries' , 'brand-new-day' ) ) ?></div>
+		<div class="alignright"><?php previous_posts_link( __( 'Newer Entries' , 'brand-new-day' ) . ' &raquo;') ?></div>
+	</div>
 
 
 <?php else : ?>
@@ -36,4 +41,7 @@
 
 <?php endif; ?>
 </div>
+
+<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
