@@ -9,10 +9,6 @@
 	 */
 	if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
 
-			<li id="search" class="widget-container widget_search">
-				<?php get_search_form(); ?>
-			</li>
-
 			<li id="archives" class="widget-container">
 				<h3 class="widget-title">Archives</h3>
 				<ul>
@@ -20,10 +16,10 @@
 				</ul>
 			</li>
 
-			<li id="meta" class="widget-container">
+			<li id="catagories" class="widget-container">
 				<h3 class="widget-title">Categories</h3>
 				<ul>
-					<?php wp_list_categories(); ?>
+					<?php wp_list_categories('title_li=""'); ?>
 				</ul>
 			</li>
 
