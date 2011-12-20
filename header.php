@@ -36,7 +36,5 @@
 
   <div id="container">
     <header>
-      <h1 class="title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-      <div id="search" <?php if ( $bnd_search == 1 || $bnd_quickblog == 1 ) { echo "style='display: none'"; } ?>><?php get_search_form(); ?></div>
-    	<h2 class="tagline"><?php bloginfo('description'); ?></h2>
+      <img alt='MathCoach Interactive Blog' src='blogbackground.png'>
     </header>
