@@ -316,6 +316,9 @@ strong {
   background-image: -ms-linear-gradient(top, #e3004f 0%, #b6003f 100%);
   background-image: -o-linear-gradient(top, #e3004f 0%, #b6003f 100%);
   background-image: linear-gradient(top, #e3004f 0%, #b6003f 100%);
+  padding: 1em;
+  display: block;
+  font-size: 1.2em;
 }
 
 /* =============================================================================
