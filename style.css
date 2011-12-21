@@ -298,6 +298,26 @@ strong {
   background-color: #6d578f;  
 }
 
+#homeLink {
+  color: #fafafa;
+  border: 2px solid #33333d;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #e3004f;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e3004f), color-stop(1, #b6003f));
+  background-image: -webkit-linear-gradient(top, #e3004f 0%, #b6003f 100%);
+  background-image: -moz-linear-gradient(top, #e3004f 0%, #b6003f 100%);
+  background-image: -ms-linear-gradient(top, #e3004f 0%, #b6003f 100%);
+  background-image: -o-linear-gradient(top, #e3004f 0%, #b6003f 100%);
+  background-image: linear-gradient(top, #e3004f 0%, #b6003f 100%);
+}
+
 /* =============================================================================
    Non-semantic helper classes
    Please define your styles before this section.
