@@ -8,6 +8,8 @@
 	 * some default sidebar stuff just in case.
 	 */
 	if ( ! dynamic_sidebar( 'primary-widget-area' ) ) : ?>
+	
+	   <a id='homeLink' href='/'>Visit our website!</a>     
 
 			<li id="archives" class="widget-container">
 				<h3 class="widget-title">Archives</h3>
