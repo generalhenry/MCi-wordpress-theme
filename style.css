@@ -274,6 +274,10 @@ strong {
   text-align: center;
 }
 
+.post-year {
+  font-size: 0.5em;
+}
+
 .post {
   display: inline-block;
   width: 500px;
