@@ -10,7 +10,7 @@
 				<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
 					<span class="post-month"><?php the_time('M'); ?></span>
 					<span class="post-day"><?php the_time('j'); ?></span>
-					<div class="post-year"><?php the_year('M'); ?></div>
+					<div class="post-year"><?php the_time('Y'); ?></div>
 				</a>
 			</div>
 		</div>
